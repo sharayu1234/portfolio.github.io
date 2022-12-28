@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sharayu Thosar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+		<style>
+			/* Popup container */
+			body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+  padding:30px;
+}
+.popup-link{
+  display:flex;
+  flex-wrap:wrap;
+  text-decoration:none!important;
+}
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+}
+
+.popup-link a{
+    padding: auto;
+    border-radius: auto;
+    font-size:17px;
+    cursor:pointer;
+    margin:auto;
+	border-bottom: none;
+    text-decoration:none;
+}
+
+.popup-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.3);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 17, 17, 0.61);
+    display: flex;
+    align-items: center;
+}
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.popup-content p{
+	color:#333;
+    font-size: 17px;
+    padding: 10px;
+    line-height: 20px;
+}
+.popup-content a.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+}
+
+.popup-content a.close:hover{
+  color:#000;
+}
+
+.popup-content span:hover,
+.popup-content span:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup-container:target{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-container h3{
+  margin:10px;
+}
+		</style>
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>Sharayu Thosar</h1>
+						<p>MS in Data Analytics Student at Northeastern University<br />
+						<!--
+						LinkedIn <a href="https://twitter.com/ajlkn">@Sharayu</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+						-->
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#home" class="active">Home</a></li>
+							<li><a href="#intro">About Me</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#second">Skills</a></li>
+							<li><a href="#cta">Tableau Public</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Hi, I'm Sharayu</h2>
+										</header>
+										<p>My story with data began in an unusual way when my father taught me to use excel for everything! 
+											Yes, everything like my monthly budget, university shortlisting, and even a habit tracker, mood tracker, book reading tracker, and whatnot. 
+											Since then, it has been a journey to learn, explore, and get mesmerized by what data can do. </p>
+										<ul class="actions">
+											<li><a href="about_me.html" class="button">Get to know me</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/aboutpic.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="projects" class="main special">
+								<header class="major">
+									<h2>Projects</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-database"></span>
+										<a href="https://github.com/sharayu1234/Database-Modeling-for-Kids-Crew-App"><h3><u><strong>Kids Crew</strong></u></h3></a>
+										<p>Creating Database in MySQL for a Kids Crew app that provides a platform for connecting Parents to Babysitters.</p>
+									</li>
+									<li>
+										<span class="icon solid major style3 fa-chart-line"></span>
+										<a href="https://github.com/sharayu1234/Human-Activity-Recognition"><h3><u><strong>Human Activity Recognition</strong></u></h3></a>
+										<p>Extracting Time Series features for human activity using HVG, NVG, Permutation Entropy and Complexity.</p>
+									</li>
+									<li>
+										<span class="icon solid major style5 fa-fan"></span>
+										<a href="https://github.com/sharayu1234/Turbine-Failure-Data-Analysis"><h3><u><strong>Turbine Failure Analysis</strong></u></h3></a>
+										<p>Data Visualization and Time Series Forecasting in Python to delineate the reasons of breakdown and predicting future failures.</p>
+									</li>
+								</ul>
+									<ul class="features">
+										<li>
+											<span class="icon solid major style3 fa-globe"></span>
+											<a href="https://github.com/sharayu1234/Clustering-World-Countries"><h3><u><strong>Clustering World Countries</strong></u></h3></a>
+											<p>Comparing different countries all over the world by implementing K-means and Hierarchical Clustering methods. </p>
+										</li>
+										<li>
+											<span class="icon solid major style5 fa-chart-bar"></span>
+											<a href="https://github.com/sharayu1234/Bank-Marketing-Campaign-Data-Analysis"><h3><u><strong>Bank Marketing Data Analysis</strong></u></h3></a>
+											<p>End to end Exploratory Data Analysis to infer knowledge of where bank has to put more effort to improve it's positive response rate.</p>
+										</li>
+										<li>
+											<span class="icon solid major style2 fa-store"></span>
+											<a href="https://github.com/sharayu1234/Super-Market-Data-Analysis"><h3><u><strong>Supermarket Data Analysis</strong></u></h3></a>
+											<p>Data Visualization and Analysis to draw insights regarding the relations of customers, types of products and their ratings, payment methods, at the supermarket. </p>
+										</li>
+									</ul>
+									<footer class="major">
+										<ul class="actions special">
+											<li><a href="https://github.com/sharayu1234" class="button">Learn More</a></li>
+										</ul>
+								</footer>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Top Skills</h2>
+									<p>My goal is to make better use of data. <br />
+										My expertise can be used to clean, analyse, visualize,  
+										interpret, predict and gain insights from the data.</p>
+								</header>
+								
+								<ul class="statistics">
+									
+									<li class="style1">
+										<span class="icon solid fa-database"></span>
+										<br/> 
+										<div class="popup-link">
+										<a href="#popup1">Data Management</br><strong>+</strong></a>
+										<div id="popup1" class="popup-container">
+										<div class="popup-content">
+	  									<a href="#second" class="close">&times;</a>
+	  									<h3>Data Management</h3>
+	  									<h5>Tools: MySQL, MongoDB, Google Big Query</h5>
+										<h6><ol>
+											<l>1. Created an ETL pipeline in Python to clean and organize the unstructured data and storing the structured data to MySQL Database. </l> </br>
+											<l>2. Wrote queries and created views of the data stored in the Google Big Query. Later imported the data in Tableau for creating Dashboards.</l> </br>
+											<l>3. Worked on a project to create a database for Kids Crew app using the EER Model, Logical Model, Relational Model and storing the data to MySQL. Additionally, queries were written to get insights from the database.</l> 
+										</ol>
+										</h6>
+										</div>
+										</div>
+  										</div> 
+									
+									</li>
+									
+						
+									<li class="style2">
+										<span class="icon fa-code"></span>
+										<br/>
+										<div class="popup-link">
+										<a href="#popup2">Data Analysis </br><strong>+</strong></a>
+										<div id="popup2" class="popup-container">
+										<div class="popup-content">
+	  									<a href="#second" class="close">&times;</a>
+	  									<h3>Data Analysis</h3>
+										<h5>Tools: Python (Numpy, Pandas), R Programming</h5>
+	  									<h6>1. Worked on multiple Case Studies for Analysis and Visualization of large IoT datasets to identify the patterns and trends in the data collected from Radar Sensors, Shot Blasting, Food Crushing, and CNC Machines. </br>
+											2. Worked on Project Supermarket Data Analysis to analyse the customer behavior and gain actionalable insights for the improving the supermarket sales</br>
+											3. Worked on Project Turbine Failure Analysis to analyse failure patterns and predict future breakdowns. </br>
+										</h6>
+										</div>
+										</div>
+  										</div>  
+									</li>
+
+									<li class="style3">
+										<span class="icon solid fa-chart-pie"></span>
+										<br/>
+										<div class="popup-link">
+										<a href="#popup3">Data Visualization </br><strong>+</strong></a>
+										<div id="popup3" class="popup-container">
+										<div class="popup-content">
+	  									<a href="#second" class="close">&times;</a>
+	  									<h3>Data Visualization</h3>
+										<h5>Tools: Tableau, PowerBI, Python (Seaborn, Matplotlib, Plotly), R (ggplot)</h5>
+										<h6>1. Worked on multiple Case Studies for Analysis and Visualization of large IoT datasets to identify the patterns and trends in the data collected from Radar Sensors, Shot Blasting, Food Crushing, and CNC Machines. </br>
+											2. Built a total of 26 dashboards for Tata Steel Company which included extensive usage of Tableau Calculations, Filters, Grouping, Navigation, Parameters, Reference Lines and Relationships for Connecting Datasets.</br>
+										</h6>
+										</div>
+										</div>
+  										</div>  
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-laptop-code"></span>
+										<br/>
+										<div class="popup-link">
+										<a href="#popup4">Machine Learning </br><strong>+</strong></a>
+										<div id="popup4" class="popup-container">
+										<div class="popup-content">
+	  									<a href="#second" class="close">&times;</a>
+	  									<h3>Machine Learning</h3>
+										<h5>Tools: Python (sklearn), R (carat)</h5>
+										<h6>1. Researched on Vibration Data Analysis for Fault Prediction-  Developed a SVM Model with 98.67% accuracy to predict the type of Fault in Motors.
+											 The Project got selected for further development in the company. </br>
+											2. Turbine Failure Prediction: Time Series Forecasting in Python to delineate the reasons and predict future breakdowns.</br>
+											3. Used K-means and Hierarchical Clustering methods to compare and group countries based on selected attributes from world indicators dataset.
+										</h6>
+	  									
+										</div>
+										</div>
+  										</div> 
+									</li>
+									<li class="style5">
+										<span class="icon fa-code-branch"></span>
+										<br/>
+										<div class="popup-link">
+										<a href="#popup5">Big Data Analytics </br><strong>+</strong></a>
+										<div id="popup5" class="popup-container">
+										<div class="popup-content">
+	  									<a href="#second" class="close">&times;</a>
+	  									<h3>Big Data Analytics</h3>
+										<h5>Tools: Neo4j, MongoDB, Apache Spark</h5>
+										<h6>1. Researched on Vibration Data Analysis for Fault Prediction-  Developed a SVM Model with 98.67% accuracy to predict the type of Fault in Motors.
+											The Project got selected for further development in the company. </br>
+										    2. Turbine Failure Prediction: Time Series Forecasting in Python to delineate the reasons and predict future breakdowns.</br>
+										    3. Used K-means and Hierarchical Clustering methods to compare and group countries based on selected attributes from world indicators dataset.
+									   </h6>
+										</div>
+										</div>
+  										</div> 
+									</li>
+								<!-- 
+								</ul>
+								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+								 -->
+							</section>
+
+						
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Tableau Public</h2>
+									<p>Check out my Dashboards on my Tableau Public Profile</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<!--<li><a href="#" class="button primary">Get Started</a></li>-->
+										<li><a href="#" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Phone</dt>
+								<dd>(602)-849-3746</dd>
+								<dt>Email</dt>
+								<dd><a href="#">sharayu.thosar@gmail.com</a></dd>
+								<dt>Address</dt>
+								<dd>Boston, MA, USA</dd>
+							</dl>
+							<ul class="icons">
+								
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-medium alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; 2022 Sharayu Thosar</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+	</body>
+</html>
